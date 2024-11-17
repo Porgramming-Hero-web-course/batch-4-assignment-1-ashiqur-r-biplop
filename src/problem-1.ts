@@ -1,6 +1,6 @@
 {
-    const sumArray = (ArrayNum: number[]): number => {
-        const sum: number = ArrayNum.reduce((a: number, c: number): number => a + c, 0)
+    const sumArray = (arrayNum: number[]): number => {
+        const sum: number = arrayNum.reduce((a: number, c: number): number => a + c, 0)
         return sum
     }
 
