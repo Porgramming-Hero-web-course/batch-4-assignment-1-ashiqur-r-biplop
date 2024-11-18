@@ -5,7 +5,7 @@ interface Profile {
 }
 type UpdateGeneric<obj> = { [key in keyof obj]?: obj[key] | undefined }
 
-const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
+const myProfile: Profile = { name: "Alice", age: 25, email: "alice@example.com" };
 
 const updateProfile = (obj: Profile, updatedProperTies: UpdateGeneric<Profile>): Profile => {
     return { ...obj, ...updatedProperTies }

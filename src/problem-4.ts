@@ -20,7 +20,7 @@ const calculateShapeArea = (shape: UniqueShape): number => {
 }
 
 
-const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
+const circleArea: number = calculateShapeArea({ shape: "circle", radius: 5 });
 // console.log(circleArea);
 
 const rectangleArea = calculateShapeArea({
